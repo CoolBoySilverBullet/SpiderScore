@@ -26,7 +26,7 @@ class SpiderScore(object):
         page1 = requests.get(login_url)
         cookies = page1.cookies
         
-        with open('rsa.js', 'r') as j:
+        with open('rsa.js', 'r', encoding='utf-8') as j:
             rsa_js = execjs.compile(j.read())
         
         UserPwd = rsa_js.call('getUserPwd', user, pwd)
