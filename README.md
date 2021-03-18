@@ -1,4 +1,4 @@
-# SpiderScore
+# SpiderScore（已失效）
 
 ## 功能介绍
 
@@ -6,14 +6,14 @@
 
 ## 使用方式
 
->python ./SpiderScore.py
+>python3 ./SpiderScore.py
 
 ## 所需环境
 
-python3环境
+python3.6 环境
 
-需要 execjs 库支持，可利用下面命令安装
->pip install PyExecJS
+需要 execjs 库支持，可利用下面命令安装(需自行安装 js 环境)
+>pip3 install PyExecJS
 
 需要 requests 库支持，可利用下面命令安装
->pip install requests
+>pip3 install requests
